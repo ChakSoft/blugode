@@ -38,6 +38,17 @@ module.exports = new Schema(
             type : String,
             enum : PublicationStatus,
         },
+        seo : {
+            title : {
+                type : String,
+            },
+            description : {
+                type : String,
+            },
+            keywords : {
+                type : String,
+            },
+        },
     },
     {
         collection : 'page',

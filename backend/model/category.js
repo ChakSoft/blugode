@@ -20,6 +20,10 @@ module.exports = new Schema(
             type : Date,
             default : Date.now,
         },
+        color : {
+            type : String,
+            default : '#010101',
+        },
     },
     {
         collection : 'category',
